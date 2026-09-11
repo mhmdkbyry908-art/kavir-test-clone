@@ -16,21 +16,15 @@ The design and layout are inspired by the Kavir website.
 
 ## 🖼️ Screenshots
 
-### Home Page
+<p align="center">
+  <img src="./screenshots/1.png" width="48%">
+  <img src="./screenshots/2.png" width="48%">
+</p>
 
-![Screenshot 1](./screenshots/1.png)
-
-### Section 2
-
-![Screenshot 2](./screenshots/2.png)
-
-### Section 3
-
-![Screenshot 3](./screenshots/3.png)
-
-### Section 4
-
-![Screenshot 4](./screenshots/4.png)
+<p align="center">
+  <img src="./screenshots/3.png" width="48%">
+  <img src="./screenshots/4.png" width="48%">
+</p>
 
 ## 🛠️ Built With
 
