@@ -14,6 +14,10 @@ This project was created as a front-end practice project to improve my skills in
 
 The design and layout are inspired by the Kavir website.
 
+## 🌐 Live Demo
+
+[View Live Demo](https://mhmdkbyry908-art.github.io/kavir-test-clone/)
+
 ## 🖼️ Screenshots
 
 <p align="center">
@@ -38,3 +42,5 @@ The design and layout are inspired by the Kavir website.
 Mohammad Kabiri
 
 GitHub: [mhmdkbyry908-art](https://github.com/mhmdkbyry908-art)
+
+Email: [mhmdkbyry908@gmail.com](mailto:mhmdkbyry908@gmail.com)
