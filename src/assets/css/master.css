@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer utilities{
+    .bg_head{
+        background-color: #111827;
+    }
+    .animeimg1 {
+        @apply animate-[img1_15s_ease-in-out_infinite] w-full h-full object-cover
+    }
+
+    .animeimg2 {
+        @apply animate-[img2_15s_ease-in-out_infinite] w-full h-full object-cover
+    }
+
+    .animeimg3 {
+        @apply animate-[img3_15s_ease-in-out_infinite] w-full h-full object-cover
+    }
+
+    
+}
+
+@layer components{
+    .card{
+        @apply object-cover overflow-hidden w-full h-full absolute top-0 left-0 rounded-[10px]
+    }
+
+    .imglink{
+        @apply absolute bottom-0 left-1/2 -translate-x-1/2 px-2 py-1.5 text-[12px] md:px-3.5 md:py-2.5 bg-white md:text-2xl rounded-[10px] transition-all duration-500 ease-out group-hover:bottom-1/2 group-hover:translate-y-1/2 group-hover:scale-125 group-hover:bg-black group-hover:text-white
+    }
+
+    .logoimg{
+        @apply w-full h-[70%] object-cover group-hover:scale-115 duration-500
+    }
+    
+    .logocap{
+        @apply w-full h-[30%] text-center text-[18px] group-hover:scale-110  duration-500
+    }
+}
+
+@keyframes img1 {
+
+    0%,
+    31%,
+    100% {
+        opacity: 1;
+    }
+
+    35%,
+    96% {
+        opacity: 0;
+    }
+}
+
+@keyframes img2 {
+
+    0%,
+    31%,
+    68%,
+    100% {
+        opacity: 0;
+    }
+
+    35%,
+    64% {
+        opacity: 1;
+    }
+}
+
+@keyframes img3 {
+
+    0%,
+    64%,
+    100% {
+        opacity: 0;
+    }
+
+    68%,
+    94% {
+        opacity: 1;
+    }
+}
